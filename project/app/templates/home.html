@@ -1,0 +1,25 @@
+<center>
+<h3>Student Informations</h3>
+<table border="1">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Mobile</td>
+            <td>City</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for i in student %}
+        <tr>
+            <td>{{i.id}}</td>
+            <td>{{i.stu1_name}}</td>
+            <td>{{i.stu1_email}}</td>
+            <td>{{i.stu1_mobile}}</td>
+            <td>{{i.stu1_city}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</center>
